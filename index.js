@@ -63,4 +63,4 @@ app.get('/', (req, res) => {
 	res.send('Hello Fresh Valley server!');
 });
 
-app.listen(process.env.DB_PORT || port);
+app.listen(process.env.PORT || port);
